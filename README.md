@@ -1,5 +1,5 @@
 
-"# otsu-method-MATLAB"
+# Otsu Method MATLAB
 
 **The algorithm returns a single intensity threshold that separate pixels into two classes, foreground, and
 background.**
@@ -23,5 +23,5 @@ minimum (Variance between background and foreground).
 ## References:
 
 https://youtu.be/mnmjZOLjoBA
-additional helpful material:
+**Additional helpful material:**
 http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html
