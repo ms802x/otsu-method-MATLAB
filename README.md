@@ -1,8 +1,8 @@
 
 # Otsu's Method MATLAB
 
-**The algorithm returns a single intensity threshold that separate pixels into two classes, foreground, and
-background.**
+The algorithm returns a single intensity threshold that separate pixels into two classes, foreground, and
+background.<br />
 ![alt text](https://i.gyazo.com/c17142f9b87781c8893711dff0c0d89c.png)
 ## Background
 
