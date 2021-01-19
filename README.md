@@ -23,5 +23,6 @@ minimum (Variance between background and foreground).
 ## References:
 
 https://youtu.be/mnmjZOLjoBA
+
 **Additional helpful material:**
 http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html
