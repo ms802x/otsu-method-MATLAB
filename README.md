@@ -1,9 +1,9 @@
 
-# Otsu Method MATLAB
+# Otsu's Method MATLAB
 
 **The algorithm returns a single intensity threshold that separate pixels into two classes, foreground, and
 background.**
-
+![alt text](https://i.gyazo.com/c17142f9b87781c8893711dff0c0d89c.png)
 ## Background
 
   There are many methods and algorithm that can be used to segment an image such as balanced
@@ -20,8 +20,7 @@ iterative and it calculate the variance each time it iterates until we reach a t
 minimum (Variance between background and foreground).
 
 
-## References:
-
+## Reference:
 https://youtu.be/mnmjZOLjoBA
 
 Additional helpful material:<br />
