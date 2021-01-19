@@ -4,7 +4,7 @@ clear all
 close all
 %%
 %read the image
-img = imread("https://images.unsplash.com/photo-1610960245237-cfab0dea6be4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80");
+img = imread("https://images.unsplash.com/photo-1603246572041-923cb220b634?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1003&q=80");
 %convert the image to gray
 img = rgb2gray(img);
 %build PDF(probability density function)
@@ -12,7 +12,7 @@ h=histogram(img,'Normalization','probability','binwidth',1,'BinLimits',[0,255]);
 % C is the condition for the PDF (It's arbitary number )
 C = 999;
 
-%Here otsu's method starts, just apply the fourmlas in the 20min video.
+%Here otsu's method starts, just apply the fourmlas in the 15min video.
 for t = [1:255]
 q1 = sum(h.Values(1:t));
 q2 = sum(h.Values(t+1:255));
@@ -26,3 +26,5 @@ C = sw; %% this is the minmum variance
 thr = t; %% this is the threshold
 end
 end
+
+imshowpair(img,img>thr,'montage')
